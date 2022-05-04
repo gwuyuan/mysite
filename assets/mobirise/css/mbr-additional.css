@@ -682,6 +682,8 @@ a {
 .cid-t4HtAwnniN {
   z-index: 1000;
   width: 100%;
+  position: relative;
+  min-height: 60px;
 }
 .cid-t4HtAwnniN nav.navbar {
   position: fixed;
@@ -781,7 +783,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
 }
 .cid-t4HtAwnniN .navbar.opened {
   transition: all 0.3s;
@@ -952,7 +955,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-t4HtAwnniN button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
